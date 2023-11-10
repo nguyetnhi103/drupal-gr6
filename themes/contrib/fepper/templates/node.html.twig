@@ -1,0 +1,54 @@
+{#
+/**
+ * @file
+ * Fepper theme's implementation to display a node.
+ *
+ * @see node/templates/node.html.twig
+ */
+#}
+{%
+  set classes = [
+    'node',
+    'node--type-' ~ node.bundle|clean_class,
+    node.isPromoted() ? 'node--promoted',
+    node.isSticky() ? 'node--sticky',
+    not node.isPublished() ? 'node--unpublished',
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+  ]
+%}
+<!-- Begin node -->
+<article {{ attributes.addClass(classes) }}>
+
+  {{ title_prefix }}
+  {% if page %}
+    {% if not page_title_block_enabled %}
+      <h1 {{ title_attributes }}>
+        <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+      </h1>
+    {% endif %}
+  {% endif %}
+  {% if not page %}
+    <h2 {{ title_attributes }}>
+      <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+    </h2>
+  {% endif %}
+  {{ title_suffix }}
+
+  {% if page %}
+    <footer>
+      {{ author_picture }}
+      <div {{ author_attributes }}>
+        {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
+        {{ metadata }}
+      </div>
+    </footer>
+  {% endif %}
+
+  <div role="content" {{ content_attributes }}>
+
+    {{ content }}
+
+  </div>
+
+</article>
+<!-- End node -->

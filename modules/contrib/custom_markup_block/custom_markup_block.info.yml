@@ -1,0 +1,13 @@
+name: Custom Markup Block
+type: module
+description: A custom markup block allows adding any markup to a block which gets saved to config.
+core_version_requirement: ^8 || ^9 || ^10
+package: Other
+# version: 8.x-1.0
+dependencies:
+  - drupal:filter
+
+# Information added by Drupal.org packaging script on 2023-07-02
+version: '8.x-1.2'
+project: 'custom_markup_block'
+datestamp: 1688288995

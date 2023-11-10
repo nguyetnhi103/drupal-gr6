@@ -1,0 +1,58 @@
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 1
+favicon:
+  use_default: 1
+  mimetype: image/png
+no_of_slides: '2'
+show_slideshow: 1
+slide_image1:
+  - '2'
+slide_title_1: 'Your Space, Your Signature Style'
+slide_description_1: 'Interior design is the art and science of enhancing the interior spaces of buildings to achieve a more functional.'
+slide_url_1: ''
+slide_url_text1: ''
+slide_image2:
+  - '3'
+slide_title_2: 'Where Style Meets Comfort'
+slide_description_2: 'Interior design encompasses various aspects, including selecting and arranging furniture, choosing color schemes.'
+slide_url_2: ''
+slide_url_text2: ''
+slide_image3: {  }
+slide_title_3: i
+slide_description_3: p
+slide_url_3: o
+slide_url_text3: op
+slide_image4: {  }
+slide_title_4: ''
+slide_description_4: ''
+slide_url_4: ''
+slide_url_text4: ''
+show_social_icons: 1
+twitter_url: 'https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D'
+facebook_url: 'https://www.facebook.com/login/'
+instagram_url: 'https://www.instagram.com/accounts/login/'
+linkedin_url: 'https://in.linkedin.com/?src=go-pa&trk=sem-ga_campid.14650114788_asid.151761418307_crid.657403558718_kw.linkedin+login_d.c_tid.k'
+show_copyright: 1
+copyright_text: 'Designed & Developed by Priya Degwekar'
+slide_video1:
+  - '9'
+slide_video2:
+  - '5'
+slide_video3:
+  - '6'
+no_of_footer: '2'
+footer_description_1: 'n'
+footer_description_2: 'n'
+scrolltotop_on: 1
+about_title: About
+about_description: 'We are delighted to say that decorx has been published on drupalorg. Feel free to visit us.'
+contact_title: 'Contact Us'
+contact_description: '<ul><li>250 Lorem Ipsum</li><li>+91101 0700 8134</li><li>office@decorx.com</li><li>Mon-Sat: 09:00 - 06:00</li></ul>'
+footer_newsletter_on: 1
+slide_video1_video: {  }
+slide_video2_video: {  }

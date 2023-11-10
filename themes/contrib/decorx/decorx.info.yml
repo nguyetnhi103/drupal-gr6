@@ -1,0 +1,35 @@
+name: Decorx
+type: theme
+description: 'Fully responsive theme which provides <b>Video Slider</b>, <b>Scroll To Top</b>, <b>Social Media Icon</b>, <b>Footer Section</b> with <b>Copyright</b> and <b>Newsletter</b>.<br>Designed and Developed By <b><a href="https://www.drupal.org/u/priya_degwekar">Priya Degwekar</a></b>'
+
+package: Custom
+base theme: false
+core_version_requirement: ^8.8 || ^9 || ^10
+
+# libraries
+libraries:
+- decorx/global-styling
+- decorx/bootstrap
+
+# Regions
+regions:
+  logo: Logo
+  navigation: Navigation
+  search: Search
+  banner: Banner
+  highlighted: Highlighted
+  page_title: Page Title
+  tabs: Tabs
+  breadcrumb: Breadcrumb
+  content: Content
+  footer_one: Footer First
+  footer_two: Footer Second
+  footer_three: Footer Third
+  footer: Footer
+  
+# Auto hidden
+  auto_hidden_block: 'Auto hidden blocks'
+# Information added by Drupal.org packaging script on 2023-09-19
+version: '1.0.0'
+project: 'decorx'
+datestamp: 1695100224

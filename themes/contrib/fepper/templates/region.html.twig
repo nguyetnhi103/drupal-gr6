@@ -1,0 +1,18 @@
+{#
+/**
+ * @file
+ * Fepper theme's implementation to display a region.
+ *
+ * @see system/templates/region.html.twig
+ */
+#}
+<!-- Begin region -->
+{% set id = 'region-' ~ region|clean_class %}
+{% if content %}
+  <div {{ attributes.setAttribute('id', id) }}>
+
+    {{ content }}
+
+  </div>
+{% endif %}
+<!-- End region -->

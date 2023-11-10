@@ -1,0 +1,24 @@
+name: Fepper
+type: theme
+description: 'A Drupal theme for Fepper.'
+core_version_requirement: ^9 || ^10
+base theme: false
+libraries:
+  - fepper/global-styling
+  - fepper/global-scripts
+regions:
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'
+  breadcrumb: 'Breadcrumb'
+
+# Information added by Drupal.org packaging script on 2022-08-22
+version: '10.0.1'
+project: 'fepper'
+datestamp: 1661161066

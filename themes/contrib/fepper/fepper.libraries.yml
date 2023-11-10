@@ -1,0 +1,12 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      _styles/bld/style.css: {}
+
+global-scripts:
+  js:
+    _scripts/src/behaviors.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
